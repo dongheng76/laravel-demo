@@ -14,13 +14,13 @@ QQ:339803849 （欢迎PHPer,Laravel爱好者加入）
 ### 截图
 
 **首页**
-![首页](http://www.moell.cn/uploads/github/index.png "首页")
+![首页](https://github.com/dongheng76/laravel-demo/blob/master/upload/3.png "登录")
 
-**文章**
-![文章](http://www.moell.cn/uploads/github/article-show.png "文章")
+**用户**
+![用户](https://github.com/dongheng76/laravel-demo/blob/master/upload/1.png "文章")
 
-**文章发布**
-![后台](http://www.moell.cn/uploads/github/backend.png "后台")
+**后台首页**
+![后台](https://github.com/dongheng76/laravel-demo/blob/master/upload/2.png "后台")
 
 
 php artisan make:repository
