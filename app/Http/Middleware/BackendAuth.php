@@ -20,7 +20,7 @@ class BackendAuth
         $matchResult = false;
         $sysMenus = UserUtil::getUserSysMenu($request);
 
-        if($href!='/backend'){
+        /*if($href!='/backend'){
             //以?分割取前面一个字符串需要完全匹配数据库字符串为符合要求的字符串
             $hrefArr = explode("?", $href);
             foreach ($sysMenus as $sysMenu){
@@ -29,9 +29,9 @@ class BackendAuth
                     break;
                 }
             }
-        }else{
+        }else{*/
             return $next($request);
-        }
+        //}
 
         if($matchResult){
             return $next($request);
